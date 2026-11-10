@@ -4,12 +4,12 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Lớp:
-- Link repo bài làm:
-- Link Colab đã chạy:
+- Họ tên: Nguyen Duc Cuong
+- MSSV:2A202603040
+- Email: cuongsher@gmail.com
+- Lớp:2A
+- Link repo bài làm: https://github.com/cuongsher/K5-L2A-DAY02-NguyenDucCuong-03040.git
+- Link Colab đã chạy: https://colab.research.google.com/drive/1SAn2W3NwjtNC9KxDrbJlak_s3iwglZhB?usp=sharing
 
 ## 2. Schema và mini guideline
 
@@ -17,7 +17,7 @@ Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ h
 
 ## 3. Annotation và self-QC
 
-- Số file nhãn train:
+- Số file nhãn train: 50
 - Kết quả checker và lỗi đã xử lý:
 - Danh sách ít nhất 10 ảnh đã rà bằng mắt:
 - Lỗi bỏ sót/box/class phát hiện khi rà và cách sửa:
@@ -27,14 +27,16 @@ Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ h
 
 | Chỉ số | Trước sửa | Sau sửa nếu có |
 |---|---:|---:|
-| TP | | |
-| FP | | |
-| FN | | |
-| Precision | | |
-| Recall | | |
-| F1 | | |
-| mean_iou_of_matches | | |
-| passed | | |
+| TP | 459 | |
+| FP | 611 | |
+| FN | 194 | |
+| Precision | 0.429 | |
+| Recall | 0.7029 | |
+| F1 | 0.5328 | |
+| mean_iou_of_matches | 0.8426 | |
+| passed | false | |
+
+khong rework (lab coach bao f1 >0.5 , mean_iou >0.8 la dat )
 
 Dẫn tới `outputs/annotation_evaluation.json` trong repo. Nếu rework, ghi ảnh, lỗi đã kiểm, quyết định sửa/giữ và lý do. Không suy nguyên nhân chỉ từ FP/FN. Không có rework thì ghi rõ.
 
@@ -73,3 +75,5 @@ Trả lời bốn câu hỏi cuối notebook:
 ## 8. Công cụ AI và tài liệu tham khảo
 
 Ghi công cụ đã dùng, dùng ở bước nào và phần đã tự kiểm tra; không dùng thì ghi rõ. Liệt kê nguồn ngoài repo được sử dụng. Không ghi mật khẩu/token hoặc đính kèm gold train.
+
+su dung chatgpt de soat loi upgit + tim cach up git
